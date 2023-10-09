@@ -12,7 +12,11 @@ classifiers = [
     "Operating System :: MacOS :: MacOS X",
     "Operating System :: Microsoft :: Windows :: Windows 10",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8"
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
 ]
 readme = "README.rst"
 repository = "https://github.com/adam-grant-hendry/pyembree"
@@ -21,7 +25,7 @@ include = [
 ]
 
 [tool.poetry.dependencies]
-python = "3.8"
+python = ">=3.8,<3.13"
 numpy = "^1.22.2"
 Cython = "^0.29.28"
 setuptools = "^60.9.3"
